@@ -1,7 +1,6 @@
-# Site settings
+
 title: My Articles Website
 description: A minimalistic website for writing articles
 theme: Midnight # or the name of your chosen theme
 
-# Build settings
 markdown: kramdown
