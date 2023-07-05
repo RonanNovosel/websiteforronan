@@ -28,6 +28,27 @@
     p {
       line-height: 1.5;
     }
+
+    .article-link {
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+      color: #000;
+    }
+
+    .article-link:hover {
+      color: #ff0000;
+    }
+
+    .article-link span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
@@ -36,16 +57,17 @@
   </header>
   
   <article>
-    <h2>Article Title</h2>
-    <p>This is the introduction of my article. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non maximus nisi, id posuere velit. Fusce ac pellentesque neque. Nulla facilisi. Donec nec orci consectetur, eleifend sem et, rhoncus nisi. Integer feugiat sapien et ullamcorper feugiat. Sed lobortis odio id leo cursus malesuada. Cras laoreet felis ut aliquet laoreet.</p>
     
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non maximus nisi, id posuere velit. Fusce ac pellentesque neque. Nulla facilisi. Donec nec orci consectetur, eleifend sem et, rhoncus nisi. Integer feugiat sapien et ullamcorper feugiat. Sed lobortis odio id leo cursus malesuada. Cras laoreet felis ut aliquet laoreet.</p>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non maximus nisi, id posuere velit. Fusce ac pellentesque neque. Nulla facilisi. Donec nec orci consectetur, eleifend sem et, rhoncus nisi. Integer feugiat sapien et ullamcorper feugiat. Sed lobortis odio id leo cursus malesuada. Cras laoreet felis ut aliquet laoreet.</p>
   </article>
+
+  <a class="article-link" href="article01.html">
+    <img alt="Article 001 Thumbnail">
+    <span>Article 001</span>
+  </a>
   
   <footer>
-    &copy; 2023 My Article Website
+    &copy; 2023.
   </footer>
 </body>
 </html>
+
